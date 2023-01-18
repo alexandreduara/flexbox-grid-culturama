@@ -34,7 +34,7 @@
 .eventos__lista{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 1.5rem;
+    column-gap: 5rem;
     row-gap: 1rem;
     justify-content: center;
 
@@ -93,6 +93,10 @@
     
     .agenda__lista{
         justify-content: end;
+    }
+
+    .agenda__botao, .eventos__botao{
+        margin-left: calc(100% - 148px);
     }
 }
 
